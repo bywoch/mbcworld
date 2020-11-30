@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('common.2020.css');
+
+#container {width: 100%; background: #FFF;}
+.main_top, .ticket, .guide_map, .information {width: 100%; margin: 0 auto; font-family: 'NanumBarunGothic', sans-serif;}
+
+/*-- main_top --*/
+
+.main_top {width: 100%; max-width: 720px; margin: 0 auto;}
+.main_top ul {}
+.main_top ul li {width: 100%;}
+.main_top ul li a {display: block;}
+.main_top ul li a img {width: 100%;}
+
+.bx-wrapper {-moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none; border: none !important; background: none !important; margin-bottom: 0;}
+.main_top .bx-wrapper .bx-pager, .main_top .bx-wrapper .bx-controls-auto {bottom: 12px;}
+.main_top .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {width: auto; display: inline-block; background: rgba(0,0,0,0.5); color: #FFF; padding: 10px 45px 10px 15px; border-radius: 15px;}
+.main_top .bx-wrapper .bx-pager {left: 20px; font-size: 14px; line-height: 12px;}
+.main_top .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {right: inherit; left: 61px; bottom: 21px; z-index: 1;}
+.main_top .bx-wrapper .bx-controls-auto .bx-start {width: 10px; height: 14px; background: url('http://mbcworld.imbc.com/m/images/main2020/controls.png') -15px 0px no-repeat;}
+.main_top .bx-wrapper .bx-controls-auto .bx-stop {width: 10px; height: 14px; background: url('http://mbcworld.imbc.com/m/images/main2020/controls.png') 0px 0px no-repeat;}
+.main_top .bx-wrapper .bx-controls-auto .bx-stop, .main_top .bx-wrapper .bx-controls-auto .bx-stop.active {width: 10px; height: 14px; background: url('http://mbcworld.imbc.com/m/images/main2020/controls.png') -15px -14px no-repeat;}
+.main_top .bx-wrapper .bx-controls-auto .bx-start:hover, .main_top .bx-wrapper .bx-controls-auto .bx-start.active, .main_top .bx-wrapper .bx-controls-auto .bx-start:focus {background-position: 0px 0px;}
+.main_top .bx-wrapper .bx-controls-auto .bx-stop:hover, .main_top .bx-wrapper .bx-controls-auto .bx-stop.active, .main_top .bx-wrapper .bx-controls-auto .bx-stop:focus {background-position: 0px -14px;}
+
+/*-- //main_top --*/
+
+/*-- ticket --*/
+
+.ticket {border-top: 5px solid #EEE; border-bottom: 5px solid #EEE;}
+.ticket .tk_bx {}
+.ticket .tk_bx ul {max-width: 425px; margin: 0 auto; overflow: hidden;}
+.ticket .tk_bx ul li {width: 50%; float: left; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.ticket .tk_bx ul li.bdl {border-left: 1px solid #eee;}
+.ticket .tk_bx ul li a {display: block;}
+
+/*-- //ticket --*/
+
+/*-- information --*/
+
+.information {width: 96%; max-width: 425px; overflow: hidden; padding: 0 2% 50px 2%;}
+.information h3 {font-size: 24px; text-align: center; margin: 8% auto;}
+.information .if_tm_bx {width: 100%;}
+.information .if_tm_02 .tm_02_bx {margin-top: 5%;}
+/*-- //information --*/
+
+/*-- guide_map --*/
+
+.guide_map {width: 100%; max-width: 720px; background: #7187d6 url(http://mbcworld.imbc.com/m/images/main2020/gdm_bg-001.jpg) 0 0 no-repeat; background-size: cover; background-position: top;}
+.guide_map .gm_wrap {color: #FFF; text-align: center; padding-bottom: 20px; overflow: hidden;}
+.guide_map .gm_wrap h4 {font-size: 24px; padding-top: 30px; font-weight: 900;}
+.guide_map .gm_wrap .gm_itr_txt {font-size: 16px; line-height: 24px; margin: 20px auto;}
+.guide_map .gm_wrap .gm_bx {margin: 0 auto; position: relative; height: 415px;}
+.guide_map .gm_wrap .gb_02, .guide_map .gm_wrap .gb_03 {display: none;}
+.guide_map .gm_wrap .gm_bx .gm_nvz_off {width: 100px; margin: 0 auto; margin-bottom: 16px;}
+.guide_map .gm_wrap .gm_bx .gm_nvz_on {width: 100px; height: 100px; position: absolute; top: 0; left: 50%; margin-left: -50px; display: none; z-index: 1;}
+.guide_map .gm_wrap .gm_bx .nvz_m {background: url(http://mbcworld.imbc.com/m/images/main2020/nvz_on-001.png) 0 0 no-repeat; background-size: cover; background-position: top;}
+.guide_map .gm_wrap .gm_bx .nvz_b {background: url(http://mbcworld.imbc.com/m/images/main2020/nvz_on-002.png) 0 0 no-repeat; background-size: cover; background-position: top;}
+.guide_map .gm_wrap .gm_bx .nvz_c {background: url(http://mbcworld.imbc.com/m/images/main2020/nvz_on-003.png) 0 0 no-repeat; background-size: cover; background-position: top;}
+.guide_map .gm_wrap .gm_bx .gm_nvz_on ul {width: 100%; height: 100%;}
+.guide_map .gm_wrap .gm_bx .gm_nvz_on ul li {width: 100%; height: 33.333%;}
+.guide_map .gm_wrap .gm_sh {width: 180px; height: 40px; margin: 20px auto 0;}
+.guide_map .gm_wrap .gm_sh a {display: block; width: 100%; height: 100%; font-size: 0; background: url(http://mbcworld.imbc.com/m/images/main2020/gm_btn.png) 0 0 no-repeat; background-size: cover; background-position: top;}
+.guide_map .gm_wrap .gm_bx .bx-wrapper .bx-viewport {height: 367px !important;}
+.guide_map .gm_wrap .gm_bx .bx-wrapper .bx-caption {background: none; text-align: left; font-size: 16px; color: #FFF; padding: 16px 20px;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx {width: 505px; margin: 0 auto; position: absolute; height: 367px; left: 50%; margin-left: -143px; overflow: hidden;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li {width: 286px !important; overflow: hidden; border-radius: 15px; position: relative;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li a {position: absolute; display: block; bottom: 20px; left: 30px; font-size: 16px; color: #FFF;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li a.active {color: #fcc800;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li .bx-caption span {font-weight: bold;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li[aria-hidden=false] .bx-caption span {color: #fcc800;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li:before {content: ""; display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; box-shadow: 0px -90px 70px rgba(0,0,0,0.8) inset;}
+
+/*-- //guide_map --*/
+}
+
+@media (min-width: 728px) {
+    
+    .information {max-width: 728px;}
+    .information .if_tm_bx {width: 50%; float: left;}
+    .information .if_tm_02 .m_02_bx {margin-top: 0;}
+    .information .if_tm_01 img, .information .if_tm_02 .tm_02_bx .tm_02_img img {padding: 3%;}
+    
+}

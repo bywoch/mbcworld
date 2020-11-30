@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MBC World">
+    <meta property="og:url" content="http://mbcworld.imbc.com">
+    <meta property="og:description" content="It’s real experience! TV 속 환상의 세계 MBC 월드로 여행을 떠나보세요. 세계속의 MBC, 미래를 엽니다.">
+    <meta itemprop="image" content="http://mbcworld.imbc.com/images/common2020/mbcworld.png">
+    <meta property="og:image" content="http://mbcworld.imbc.com/images/common2020/mbcworld.png">
+    <title>MBC WORLD</title>
+    <link rel="shortcut icon" href="http://m.imbc.com/images/icon_favi.png?202003171140">
+    <link rel="stylesheet" href="http://mbcworld.imbc.com/css/intro.2020.css">
+    <script src="http://www.imbc.com/commons/libs/jquery-1.11.1.min.js"></script>
+    <!--[if lt IE 9]><script src="http://www.imbc.com/commons/libs/html5shiv.min.js"></script><![endif]-->
+    <script>
+        $(function() {
+            $(window).load(function() {
+                setTimeout(function() {
+                    scrollTo(0, 0);
+                }, 100);
+                $('.intro .header').display = "";
+                $('.intro .header').fadeIn(1800, function() {
+                    $(".header").animate({
+                        opacity: '0.5',
+                        width: '240px',
+                        top: '90px',
+                        marginLeft: -120
+                    }, 500).css('display', 'inline-block');
+                    $('.intro .container .ctt_bx .ctbx').fadeIn(2000, function() {});
+
+                    $('.intro .container .ctt_bx .lb_01').mouseenter(function() {
+                        $('.intro .container .ctt_1').stop().animate({
+                            width: '100%'
+                        }, 1500).css('position', 'absolute').css('top', '0').css('left', '0').css('z-index', '1');
+                    });
+                    $('.intro .container .ctt_bx .lb_01').mouseleave(function() {
+                        $('.intro .container .ctt_1').stop().animate({
+                            width: '50%'
+                        }, 1500).css('position', 'none');
+                    });
+
+                    $('.lb_01').mouseenter(function() {
+                        $('.intro .container .ctt_bx .lb_01 img').attr('src', 'http://mbcworld.imbc.com/images/intro2020/itr_text_003-1.png');
+                        $('.itr_text_tkt').hide();
+                    });
+                    $('.lb_01').mouseleave(function() {
+                        $('.intro .container .ctt_bx .lb_01 img').attr('src', 'http://mbcworld.imbc.com/images/intro2020/itr_text_001-1.png');
+                        $('.itr_text_tkt').show();
+                    });
+                    
+                    $('.intro .container .ctt_bx .ct-02').mouseenter(function() {
+                        $('.intro .container .ctt_2').stop().animate({
+                            width: '100%'
+                        }, 1500).css('position', 'absolute').css('top', '0').css('right', '0').css('z-index', '2');
+                        $('.intro .container .ctt_1').css('z-index', '0');
+                        $('.intro .container .ctt_bx .lb_02 img').attr('src', 'http://mbcworld.imbc.com/images/intro2020/itr_text_004-1.png');
+                    });
+                    $('.intro .container .ctt_bx .ct-02').mouseleave(function() {
+                        $('.intro .container .ctt_2').stop().animate({
+                            width: '50%'
+                        }, 1500).css('position', 'none').css('z-index', '0');
+                        $('.intro .container .ctt_bx .lb_02 img').attr('src', 'http://mbcworld.imbc.com/images/intro2020/itr_text_002-1.png');
+                    });
+                    
+                    
+                    
+                });
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="intro">
+        <h1 class="blind">MBC WORLD intro page</h1>
+        <!-- header -->
+        <div id="header" class="header">
+            <div class="logo">
+                <img src="http://mbcworld.imbc.com/images/intro2020/intro_logo.png" alt="MBC WORLD LOGO image">
+            </div>
+        </div>
+        <!-- //header -->
+        <!-- container -->
+        <div id="container" class="container">
+            <!-- content -->
+            <div id="content" class="ctt_bx ctt_1">
+                <div class="ctbx ct-01">
+                    <a href="http://mbcworld.imbc.com/main/index.html" class="lk_bx lb_01">
+                        <img src="http://mbcworld.imbc.com/images/intro2020/itr_text_001-1.png" alt="예매하기, MBC WORLD, TV 속 환상의 세계 MBC 월드로 여행을 떠나보세요.">
+                    </a>
+                    <a href="http://ticket.interpark.com/Ticket/Goods/TPBridge.asp?GoodsCode=18004373" style="width: 100%; height: 114px; top: 160px; position: absolute;" target="_blank" class="itr_text_tkt">
+                        <img src="http://mbcworld.imbc.com/images/intro2020/itr_text_tkt.png" alt="예매하기 이미지" style="width: 114px;">
+                    </a>
+                </div>
+            </div>
+            <!-- //content -->
+            <!-- content -->
+            <div id="content" class="ctt_bx ctt_2">
+                <div class="ctbx ct-02">
+                    <a href="http://mbcworld.imbc.com/edu/index.html" class="lk_bx lb_02">
+                        <img src="http://mbcworld.imbc.com/images/intro2020/itr_text_002-1.png" alt="미디어직업교육, 크리에이터 영상제작 방송직업 체험교실.">
+                    </a>
+                </div>
+            </div>
+            <!-- //content -->
+        </div>
+        <!-- //container -->
+        <!-- footer -->
+        <div id="footer">
+            <div class="footer_bx">
+                <div class="ft_logo"> <a href="http://mbcworld.imbc.com/m/"> <img src="http://mbcworld.imbc.com/images/common2020/footer_logo.png" alt="Footer Logo image"> </a> </div>
+                <div class="ctm_nv"> <img src="http://mbcworld.imbc.com/images/common2020/ctm_nv_001.png" alt="CUSTOMER CENTER : 789 - 3705 or 3706"> </div>
+                <div class="ft_cp">
+                    <p>Copyright ⓒ Since 1996, MBC&amp;iMBC All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <!-- //footer -->
+    </div>
+</body>
+
+</html>

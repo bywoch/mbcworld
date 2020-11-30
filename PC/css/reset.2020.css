@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('http://mbcworld.imbc.com/css/NanumBarunGothic.css');
+@import url('http://font.imbc.com/mbcnew/mbcnew.css');
+
+/* CSS 초기화 */
+
+* {margin: 0 auto; padding: 0; box-sizing:border-box;}
+html {overflow-y: scroll;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%; font-weight: normal;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none; color: inherit;}
+img {max-width:100%; border:none; vertical-align: middle;}
+nav ul,  li {list-style: none;}
+address {font-style: normal;}
+table {border-collapse:collapse; width:100%;}
+th {font-weight: normal; text-align: left;}
+caption {text-indent:-9999px; height: 0; overflow: hidden; line-height: 0;}
+body, input, select, textarea, button {font: 14px/1.3 'NanumBarunGothic','Noto Sans CJK KR','Noto Sans KR', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+input, select, textarea {border: 1px solid #bbb;}
+*:after, *:before {box-sizing:border-box;}
+.cf:after , .cf:before  {content:''; clear:both; display:block;}
+.blind {position: absolute; left: -9999px;}
+.skip-menu a {background-color: #000; color: #fff; position: absolute; width:100%; text-align: center; padding: 8px 0; left: 0; top: -500px;}
+.skip-menu a:focus {top: 0;}
+button {overflow: visible; border: 0 none; background-color: transparent; font-size: 100%; font-family: 'notokr-regular'; font-size: 14px; cursor: pointer;}

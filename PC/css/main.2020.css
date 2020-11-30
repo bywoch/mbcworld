@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url(common.2020.css);
+@import url('http://mbcworld.imbc.com/css/mbcnewfont.css');
+@import url('http://font.imbc.com/mbcnew/mbcnew.css');
+
+#container {width: 100%;}
+#container > div {width: 100%; margin: 0 auto;}
+#container .main_top, #container .guide_map {max-width: 1900px; overflow: hidden;}
+#container .information {width: 1280px; padding-top: 96px; margin-bottom: 96px;}
+
+/*-- main_top --*/
+
+#container.main {overflow: hidden;}
+.information h3, .guide_map .gm_wrap h4 {font-family: 'mbcnew-bold','MBC-NEW-B','MBC-NEW-OTF-B', 'NanumBarunGothic','Noto Sans CJK KR','Noto Sans KR', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+
+#content.main_top {padding: 0;}
+.main_top {height: 625px; position: relative;}
+.main_top ul {}
+.main_top ul li {}
+.main_top ul li a {display: block;}
+.main_top ul li a img {}
+.main_top .mt_obx {width: 310px; height: 625px; position: absolute; top: 0; z-index: 1; background: #000; filter: alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; -webkit-opacity: 0.5; opacity: 0.5;}
+.main_top .l_obx {left: 50%; margin-left: -950px;}
+.main_top .r_obx {right: 50%; margin-right: -950px;}
+.main_top .bx-wrapper {width: 1280px !important; max-width: 1280px !important; margin: 0 auto !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; border: none !important; background: none !important; height: 625px !important;}
+.main_top .bx-wrapper .bx-controls-direction a {width: 60px; height: 60px;}
+.main_top .bx-wrapper .bx-prev {left: -30px; background: url('http://mbcworld.imbc.com/images/main2020/arrow.png') no-repeat 0px -62px;}
+.main_top .bx-wrapper .bx-next {right: -30px; background: url('http://mbcworld.imbc.com/images/main2020/arrow.png') no-repeat -65px -62px;}
+.main_top .bx-wrapper .bx-prev:hover, .main_top .bx-wrapper .bx-prev:focus {background-position: 0px 0px;}
+.main_top .bx-wrapper .bx-next:hover, .main_top .bx-wrapper .bx-next:focus {background-position: -65px 0px;}
+.main_top .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {width: 110px; height: 45px; padding-top: 0; padding-right: 25px; line-height: 45px; left: 50%; margin-left: -55px; text-align: center; bottom: 20px; font-size: 18px; background: rgba(0, 0, 0, 0.5); color: #FFF; border-radius: 20px; font-weight: normal;}
+.main_top .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {text-align: center; bottom: 36px; right: 50%; margin-right: -45px; z-index: 1; height: 14px; line-height: 14px;}
+.main_top .bx-wrapper .bx-viewport {overflow: inherit !important;}
+.main_top .bx-wrapper .bx-controls-auto .bx-start {width: 10px; height: 14px; background: url('http://mbcworld.imbc.com/images/main2020/controls.png') -15px 0px no-repeat;}
+.main_top .bx-wrapper .bx-controls-auto .bx-stop {width: 10px; height: 14px; background: url('http://mbcworld.imbc.com/images/main2020/controls.png') 0px 0px no-repeat;}
+.main_top .bx-wrapper .bx-controls-auto .bx-stop, .main_top .bx-wrapper .bx-controls-auto .bx-stop.active {width: 10px; height: 14px; background: url('http://mbcworld.imbc.com/images/main2020/controls.png') -15px -14px no-repeat;}
+.main_top .bx-wrapper .bx-controls-auto .bx-start:hover, .main_top .bx-wrapper .bx-controls-auto .bx-start.active, .main_top .bx-wrapper .bx-controls-auto .bx-start:focus {background-position: 0px 0px;}
+.main_top .bx-wrapper .bx-controls-auto .bx-stop:hover, .main_top .bx-wrapper .bx-controls-auto .bx-stop.active, .main_top .bx-wrapper .bx-controls-auto .bx-stop:focus {background-position: 0px -14px;}
+
+/*-- //main_top --*/
+
+/*-- information --*/
+
+.information {position: relative;}
+.information .m_big {position: absolute; z-index: 99; bottom: -96px; right: 50%; margin-right: -810px;}
+.information h3 {font-size: 40px; font-weight: bold; margin-bottom: 70px;}
+.information .if_tm_bx {float: left; width: 50%;}
+.information .if_tm_01 {}
+.information .if_tm_01 img {width: 528px; display: block; margin: 0 auto;}
+.information .if_tm_02 {}
+.information .if_tm_02 .tm_02_bx {overflow: hidden; border: 1px solid #e0e0e0; border-radius: 15px; padding: 35px 75px;}
+.information .if_tm_02 .tm02_bx_02 {margin-top: 15px;}
+.information .if_tm_02 .tm_02_bx .tm_02_img, .information .if_tm_02 .tm_02_bx .tm_02_txt {float: left;}
+.information .if_tm_02 .tm_02_bx .tm_02_img {}
+.information .if_tm_02 .tm_02_bx .tm_02_img img {}
+.information .if_tm_02 .tm_02_bx .tm_02_txt {margin-left: 70px;}
+.information .if_tm_02 .tm_02_bx .tm_02_txt .t20_txt_01 {font-size: 28px; line-height: 34px; font-weight: bold;}
+.information .if_tm_02 .tm_02_bx .tm_02_txt .c_e53d27 {color: #e53d27;}
+.information .if_tm_02 .tm_02_bx .tm_02_txt .c_217bcf {color: #217bcf;}
+.information .if_tm_02 .tm_02_bx .tm_02_txt .t20_txt_02 {font-size: 16px; line-height: 1.5em; margin-top: 15px;}
+
+/*-- //information --*/
+
+/*-- guide_map --*/
+
+#container .guide_map {height: 750px; background: #759fd0 url('http://mbcworld.imbc.com/images/main2020/gdm_bg-001.jpg') 0 0 no-repeat; background-position: center; background-size: cover; margin-top: 85px; margin-top: 90px;}
+.guide_map .gm_wrap {/*max-width: 1320px;*/ width: 1320px; padding: 105px 20px 88px 20px; margin: 0 auto; position: relative;}
+.guide_map .gm_wrap h4 {font-size: 40px; color: #FFF; margin-bottom: 55px; font-weight: 900;}
+.guide_map .gm_wrap .gm_btn_bx {position: absolute; top: 120px; right: 50%; margin-right: -640px;}
+.guide_map .gm_wrap .gm_btn_bx ul {overflow: hidden;}
+.guide_map .gm_wrap .gm_btn_bx ul .gm_btn {float: left; width: 90px; height: 30px; background-size: cover; background-position: bottom; margin-left: 30px; cursor: pointer;}
+.guide_map .gm_wrap .gm_btn_bx ul .gbt-01 {background: url(http://mbcworld.imbc.com/images/main2020/nvz_on-001.png) 0 0 no-repeat;}
+.guide_map .gm_wrap .gm_btn_bx ul .gbt-02 {background: url(http://mbcworld.imbc.com/images/main2020/nvz_off-002.png) 0 0 no-repeat;}
+.guide_map .gm_wrap .gm_btn_bx ul .gbt-03 {background: url(http://mbcworld.imbc.com/images/main2020/nvz_off-003.png) 0 0 no-repeat;}
+.guide_map .gm_wrap .gm_obx {width: 620px; height: 450px; position: absolute; top: 212px; right: 50%; border-radius: 20px; margin-right: -1100px; z-index: 1; background: #000; filter: alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; -webkit-opacity: 0.5; opacity: 0.5;}
+.guide_map .gm_wrap .gm_bx {width: 100%; height: 450px; overflow: hidden;}
+.guide_map .gm_wrap .gm_bx {display: none;}
+.guide_map .gm_wrap .gm_bx.current {display: inherit;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx, .guide_map .gm_wrap .gm_img_bx {float: left;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx {width: 450px; float: left; color: #FFF; position: relative; height: 100%;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_ttl {margin-top: 43px; width: 295px; height: 115px;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_ttl img {display: block; width: 100%;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_int {font-size: 18px; line-height: 30px; margin-top: 40px;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_slt {margin-top: 20px;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_slt a {font-size: 15px; line-height: 32px; margin-right: 15px;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_sh {display: inline-block; width: 181px; height: 48px; background: url(http://mbcworld.imbc.com/images/main2020/gm_btn.png) 0 0 no-repeat; background-size: cover; background-position: center; /*margin-top: 45px;*/ position: absolute; left: 0; bottom: 10px;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx .gm_sh a {display: block; width: 100%; height: 100%; font-size: 0;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx {width: 1160px; position: absolute; right: 50%; margin-right: -950px; overflow: hidden; padding-left: 30px; height: 470px;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider {}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li {width: 620px !important; margin-right: 40px !important; border-radius: 20px; overflow: hidden;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .gm_slider li {-moz-box-shadow: -1px 10px 12px -5px rgba(0,0,0,0.5); -webkit-box-shadow: -1px 10px 12px -5px rgba(0,0,0,0.5); box-shadow: -1px 10px 12px -5px rgba(0,0,0,0.5);}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .bx-wrapper {width: 1280px !important; max-width: 1280px !important; margin: 0 auto !important; -moz-box-shadow: none !important; -webkit-box-shadow: none !important; box-shadow: none !important; border: none !important; background: none !important;}
+/*.guide_map .gm_wrap .gb_02 .gm_img_bx .bx-wrapper .bx-controls-direction, .guide_map .gm_wrap .gb_03 .gm_img_bx .bx-wrapper .bx-controls-direction {position: relative; top: 225px;}*/
+.guide_map .bx-wrapper .bx-viewport {height: 450px !important;}
+.guide_map .bx-wrapper .bx-controls-direction a {width: 60px; height: 60px;}
+.guide_map .bx-wrapper .bx-prev {left: -30px; background: url('http://mbcworld.imbc.com/images/main2020/gm_arrow.png') no-repeat 0px 0px;}
+.guide_map .bx-wrapper .bx-next {right: -30px; background: url('http://mbcworld.imbc.com/images/main2020/gm_arrow.png') no-repeat -65px 0px;}
+.guide_map .bx-wrapper .bx-prev:hover, .guide_map .bx-wrapper .bx-prev:focus {background-position: 0px -62px;}
+.guide_map .bx-wrapper .bx-next:hover, .guide_map .bx-wrapper .bx-next:focus {background-position: -65px -62px;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .bx-controls-direction a {}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .bx-controls-direction a.bx-prev {left: 50%; margin-left: -670px;}
+.guide_map .gm_wrap .gm_bx .gm_img_bx .bx-controls-direction a.bx-next {right: 50%; margin-right: -150px;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_01 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_01 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_02 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_02 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
+.guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_03 a:hover, .guide_map .gm_wrap .gm_bx .gm_txt_bx #gm_slt_03 a.active {color: #ffd820; border-bottom: 1px solid #ffd820; font-weight: bold;}
+
+/*-- //guide_map --*/

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'mbcnew-bold';
+    src: url(//font.imbc.com/mbcnew/MBC_NEW_B.eot);
+    src: url('//font.imbc.com/noto/mbcnew/MBC_NEW_B.eot?#iefix') format('embedded-opentype'),
+          url(//font.imbc.com/mbcnew/MBC_NEW_B.woff) format('woff'),
+          url(//font.imbc.com/mbcnew/MBC_NEW_B.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'mbcnew-light';
+    src: url(//font.imbc.com/mbcnew/MBC_NEW_L.eot);
+    src: url('//font.imbc.com/noto/mbcnew/MBC_NEW_L.eot?#iefix') format('embedded-opentype'),
+          url(//font.imbc.com/mbcnew/MBC_NEW_L.woff) format('woff'),
+          url(//font.imbc.com/mbcnew/MBC_NEW_L.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'mbcnew-medium';
+    src: url(//font.imbc.com/mbcnew/MBC_NEW_M.eot);
+    src: url('//font.imbc.com/noto/mbcnew/MBC_NEW_M.eot?#iefix') format('embedded-opentype'),
+          url(//font.imbc.com/mbcnew/MBC_NEW_M.woff) format('woff'),
+          url(//font.imbc.com/mbcnew/MBC_NEW_M.woff2) format('woff2');
+}

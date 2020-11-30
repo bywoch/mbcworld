@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('reset.2020.css');
+
+/*-------------------- ※ intro ※ --------------------*/
+
+#wrap {margin-bottom: 200px;}
+.intro {width: 100%; max-width: 1920px; height: 1080px; position: relative; margin: 0 auto;}
+.intro .header {position: absolute; width: 830px; height: 310px; top: 380px; left: 50%; margin-left: -415px; z-index: 3; display: none;}
+.intro .header img {width: 100%; height: 100%; display: block;}
+.intro .container {width: 100%; height: 100%; overflow: hidden;}
+.intro .container .ctt_bx {width: 50%; height: 100%; /*float: left;*/ display: inline-block; position: relative;}
+.intro .container .ctt_bx .ctbx {width: 100%; height: 275px; position: absolute; top: 470px; display: none;}
+.intro .container .ctt_bx .ctbx a {display: block; margin: 0 auto;}
+.intro .container .ctt_bx .ctbx a img {display: block; width: 575px; margin: 0 auto;}
+.intro .container .ctt_1 {background: url('http://mbcworld.imbc.com/images/intro2020/itr_bg_001.jpg') 0 0 no-repeat; background-position: left; float: left;}
+.intro .container .ctt_2 {background: url('http://mbcworld.imbc.com/images/intro2020/itr_bg_002.jpg') 0 0 no-repeat; background-position: right; float: right;}
+
+/*-- footer --*/
+
+#footer {width: 100%; height: 200px; background: #f8f9fa; overflow: hidden; padding-top: 50px; position: absolute; z-index: 1; bottom: -200px;}
+#footer .footer_bx {width: 1320px; padding: 0 20px; margin: 0 auto; }
+#footer .footer_bx .ft_logo {}
+#footer .footer_bx .ctm_nv {margin-left: 20px;}
+#footer .footer_bx .ft_logo, #footer .ctm_nv {float: left;}
+#footer .footer_bx .ft_cp {font-size: 14px; line-height: 24px; color: #5e5f5f; float: right;}
+#footer .footer_bx .ctm_nv, #footer .ft_cp {margin-top: 10px;}
+
+/*-- //footer --*/

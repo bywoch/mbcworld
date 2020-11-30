@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('reset.2020.css');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans|Noto+Serif|Roboto+Condensed');
+
+
+/*-------------------- ※  ※ --------------------*/
+
+/*-------------------- ※ intro ※ --------------------*/
+
+html, body {}
+
+#wrap {}
+.intro {width: 100%; margin: 0 auto; position: relative;}
+.intro .header {width: 210px; position: absolute; top: 50%; margin-top: -30px; left: 50%; margin-left: -105px; z-index: 1; display: none;}
+.intro .header img {width: 100%;}
+.intro .container {}
+.intro .container .ctt_bx {position: relative;}
+.intro .container .ctt_bx img {width: 100%;}
+.intro .container .ctt_bx a {position: absolute; width: 212px; top: 50%; margin-top: -60px; left: 50%; margin-left: -106px; display: none;}
+.intro .container .ctt_bx a img {}
+.intro .container .ctt_1 {}
+.intro .container .ctt_2 {}

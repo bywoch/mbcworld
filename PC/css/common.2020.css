@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('reset.css');
+
+#wrap {min-width: 950px; overflow: hidden;}
+#skip {height: 0;}
+#skip a {display: block; position: absolute; left: 0; top: -100px; width: 100%; height: 1px; text-align: center;}
+#skip a:focus, #skip a:active {position: absolute; top: 0; z-index: 120; height: 25px; padding: 10px 0; background: #fff; color: #36348f; font-size: 1.4em; font-weight: 600;}
+.cc_ellip {display: inline-block; position: relative; max-width: 100%; vertical-align: top;}
+.cc_ellip_in {display: inline-block; overflow: hidden; max-width: 100%; vertical-align: top; white-space: nowrap; text-overflow: ellipsis;}
+
+/* IMAGE */
+.sp_com, .sns_sec a {display: inline-block; background: url(http://withmbc.imbc.com/common/images/sp_imbc.png) no-repeat;}
+.sp_com2, .submenu a .ico_arr {display: inline-block; overflow: hidden; width: auto; height: 10px; background: url(http://withmbc.imbc.com/common/images/sp_imbc.png) no-repeat; font-size: 0; line-height: 999px; vertical-align: top;}
+
+/* hot_gnb */
+
+/* COLOR */
+.bg-gr {background-image: -webkit-linear-gradient(left, #4664E6 0%, #879AEE 100%); background-image: -o-linear-gradient(left, #4664E6 0%, #879AEE 100%); background-image: linear-gradient(to right, #4664E6 0%, #879AEE 100%); background: -webkit-linear-gradient(left, #4664E6 0%, #879AEE 100%); background: -o-linear-gradient(left, #4664E6 0%, #879AEE 100%); background: -moz-linear-gradient(left, #4664E6 0%, #879AEE 100%);}
+
+/* 최상단 */
+.gnb {position: relative; width: 100%; max-width: 1320px; padding: 0 20px; height: 38px; margin: 0 auto;}
+/*.gnb h1 {position: absolute; top: 0; left: 0; width: 84px; height: 38px; margin-left: 10px;}*/
+.gnb h1 {width: 155px; height: 38px; margin-left: 10px; float: left;}
+.gnb h1 a {display: block; width: 84px; height: 38px; background-image: url("http://aboutmbc.imbc.com/images/bn_imbc.png"); background-repeat: no-repeat; background-position: 0 0;}
+/*.gnb_menu {position: absolute; top: 0; right: 0;}*/
+.gnb_menu {float: right;}
+.gnb_menu:after {display: block; clear: both; content: '';}
+.gnb_menu li {float: left; vertical-align: top;}
+.gnb_menu > li > a {display: block; height: 38px; background-image: url("http://aboutmbc.imbc.com/images/sp_gnb.png"); background-repeat: no-repeat;}
+.gnb_menu .gnbmenu_total {display: none; top: 39px; right: -1px; border: 1px solid rgba(250, 250, 250, 0.12); border-top: 0;}
+
+/*-- gnb --*/
+
+.gnb h1 a {background-position: 0 -38px;}
+.bn_login {width: 60px; background-position: 0 -38px;}
+.bn_logout {width: 66px; background-position: -430px -38px;}
+.bn_mbc {width: 63px; background-position: -60px -38px;}
+.bn_news {width: 60px; background-position: -123px -38px;}
+.bn_tv {width: 59px; background-position: -183px -38px;}
+.bn_radio {width: 63px; background-position: -242px -38px;}
+.bn_sitemap {width: 61px; background-position: -305px -38px;}
+.bn_more {width: 65px; background-position: -365px -38px;}
+
+/*-- 더보기-하위 리스트 --*/
+.gnbmenu_total {position: absolute; width: 692px; background: #fff; z-index: 1000001;}
+.gnbmenu_total ul {overflow: hidden; width: 692px; margin: 21px 0 24px;}
+.gnbmenu_total li {min-height: 160px; margin-left: -1px; border-left: 1px solid #ececec;}
+.gnbmenu_total li.g1 {width: 177px; border-left: 0; margin-left: 0;}
+.gnbmenu_total li.g2 {width: 177px;}
+.gnbmenu_total li.g3 {width: 177px;}
+.gnbmenu_total li.g4 {width: 161px;}
+.gnbmenu_total dl {padding: 0 25px;}
+.gnbmenu_total dt {margin-bottom: 12px; font-family: 'notokr-medium'; color: #333;}
+.gnbmenu_total a {display: block; font-size: 13px; color: #333; line-height: 22px; font-family: 'notokr-demilight','돋움',dotum,Helvetica,sans-serif;}
+.gnbmenu_total a:hover {color: #000; text-decoration: underline;}
+.gnbmenu_total .bn_area {height: 38px; margin: -6px 0 0; border-top: 1px solid #ececec; background: #f3f3f3; text-align: right;}
+.gnbmenu_total .bn_area .bn_close {width: 74px; height: 38px; font-size: 13px; color: #666; line-height: 100%; text-align: left;}
+.gnbmenu_total .bn_area .bn_close span {display: block; position: relative; padding-left: 36px;}
+.gnbmenu_total .bn_area .bn_close .ico_del {position: absolute; top: 50%; left: 17px; width: 12px; height: 12px; margin-top: -5px; background-position: -634px 0; vertical-align: top;}
+.commenu_total {display: none; position: absolute; bottom: 52px; right: 0; width: 689px; padding: 24px 16px; border: 1px solid #334555; background: #fff; z-index: 100;}
+.commenu_total .bg_dim {position: absolute; bottom: -3px; right: 0; width: 691px; height: 2px; background: #fff; border-bottom: 1px solid #eee;}
+.commenu_total .view {overflow: hidden; position: relative; width: 689px;}
+.commenu_total ul {float: left; width: 692px; margin-left: -1px;}
+.commenu_total li {float: left; width: 137px; margin-left: -1px; border-left: 1px solid #ececec; border-right: 1px solid #ececec;}
+.commenu_total a, .commenu_total span {display: block; padding: 0 15px; font-size: 13px; color: #333; line-height: 22px;}
+
+#gnb {width: 100%; height: 40px; background: #f8f9fa; border: 1px solid #dfdfdf; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.gnb_menu .gnbmenu_total {border: 1px solid #dfdfdf; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-top: 0px;}
+.oth_lk {float: left;}
+.oth_lk a {display: inline-block; /*color: #747474;*/ color: #616161; font-size: 14px; line-height: 38px; padding: 0 35px;}
+.gnb h1, .oth_lk a {border-left: 1px solid #dfdfdf; text-align: center; padding: 0 35px;}
+.mz_lk {border-right: 1px solid #dfdfdf;}
+
+/*-- //hot_gnb --*/
+
+/*-- edu Link --*/
+
+.edu_lk {width: 110px; height: 120px; position: fixed; top: 180px; right: 40px; z-index: 999999;}
+.edu_lk a {display: block;}
+.edu_lk a img {}
+
+/*-- //edu Link --*/
+
+/*-- header --*/
+
+#header {width: 100%; /*height: 130px;*/ height: 40px; background: #FFF; border-bottom: 1px solid #ebebeb; box-sizing: border-box; font-family: 'mbcnew-light', sans-serif;}
+#header .header_bx {width: 100%; max-width: 1320px; padding: 0 20px; margin: 0 auto; overflow: hidden; position: relative;}
+#header .header_bx .logo {width: 135px; height: 50px; float: left; margin: 20px 0;}
+#header .header_bx .logo a {display: block;}
+#header .header_bx .logo a img {}
+#header .header_bx .nav {overflow: hidden; margin: 20px 0; position: absolute; right: 50%; margin-right: -660px;}
+#header .header_bx .nav > div {display: inline-block; float: left; margin-top: 15px;}
+#header .header_bx .nav ul {overflow: hidden;}
+#header .header_bx .nav ul li {float: left;}
+#header .header_bx .nav ul li a {display: block;}
+#header .header_bx .nav .n_gnb {}
+#header .header_bx .nav .n_gnb ul {}
+#header .header_bx .nav .n_gnb ul li {font-size: 18px; line-height: 28px; color: #1e1e1e; margin: 0 35px;}
+#header .header_bx .nav .n_gnb ul li:nth-child(1) {margin-left: 0;}
+#header .header_bx .nav .n_gnb ul li:nth-child(4) {margin-right: 0;}
+#header .header_bx .nav .n_gnb ul li a {padding-bottom: 6px;  font-family: 'NanumBarunGothic', Arial, "Helvetica Neue", Helvetica, sans-serif;}
+#header .header_bx .nav .n_gnb ul li:hover a {color: #1b75b9; border-bottom: 2px solid #1b75b9;}
+#header .header_bx .nav .lgg {margin-left: 180px;}
+#header .header_bx .nav .lgg ul {}
+#header .header_bx .nav .lgg ul li {font-size: 14px; line-height: 28px; color: #757575; margin: 0 10px;}
+#header .header_bx .nav .lgg ul li:nth-child(1) {margin-left: 0;}
+#header .header_bx .nav .lgg ul li:nth-child(4) {margin-right: 0;}
+#header .header_bx .nav .lgg ul li a {display: block;}
+#header .header_bx .nav .lgg ul li a.ticket_btn {width: 50px; height: 30px; background: url(http://mbcworld.imbc.com/images/common2020/ticket_btn.png) 0 0 no-repeat;}
+
+/*-- //header --*/
+
+#content {width: 1320px; padding: 0 20px; margin: 0 auto;}
+
+/*-- footer --*/
+
+#footer {width: 100%; height: 150px; background: #f8f9fa; overflow: hidden; padding-top: 50px;}
+#footer .footer_bx {width: 1320px; padding: 0 20px; margin: 0 auto; }
+#footer .footer_bx .ft_logo {}
+#footer .footer_bx .ctm_nv {margin-left: 20px;}
+#footer .footer_bx .ft_logo, #footer .ctm_nv {float: left;}
+#footer .footer_bx .ft_cp {font-size: 14px; line-height: 24px; color: #5e5f5f; text-align: center; /*float: right;*/}
+#footer .footer_bx .ctm_nv, #footer .ft_cp {margin-top: 10px;}
+
+/*-- //footer --*/
